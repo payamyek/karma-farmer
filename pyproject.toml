@@ -6,8 +6,9 @@ authors = [
     {name = "Payam Yektamaram",email = "payamyek@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13, <4.0"
 dependencies = [
+    "praw (>=7.8.1,<8.0.0)"
 ]
 
 [tool.poetry]
